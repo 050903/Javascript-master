@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Layout Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      padding-left: 150px;
+      padding-right: 150px;
+      box-sizing: border-box;
+    }
+    .container {
+      border: 1px solid brown;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding: 1px; /* add padding to container for spacing */
+    }
+    .header {
+      background-color: #d29c00; /* mustard yellow */
+      height: 100px;
+      float: left;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 5px;
+      color: black;
+      font-weight: bold;
+    }
+    .main_1 {
+      background-color: #808080; /* gray */
+      width: 20%;
+      height: 150px;
+      float: left;
+      box-sizing: border-box;
+      padding: 5px;
+      margin-right: 2px; /* small spacing between main blocks */
+      margin-top: 2px; /* spacing from header */
+      color: black;
+      font-weight: bold;
+    }
+    .main_2 {
+      background-color: #c9c9a0; /* light olive */
+      width: 58%;
+      height: 150px;
+      float: left;
+      box-sizing: border-box;
+      padding: 5px;
+      margin-right: 2px; /* small spacing between main blocks */
+      margin-top: 2px; /* spacing from header */
+      color: black;
+      font-weight: bold;
+    }
+    .main_3 {
+      background-color: #ffc966; /* light orange */
+      width: 21.55%;
+      height: 150px;
+      float: left;
+      box-sizing: border-box;
+      padding: 5px;
+      margin-top: 2px; /* spacing from header */
+      color: black;
+      font-weight: bold;
+      clear: none;
+    }
+    .footer {
+      background-color: #ccffcc; /* light green */
+      height: 100px;
+      float: left;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 5px;
+      color: black;
+      font-weight: bold;
+      clear: both;
+    }
+  </style>
+</head>
+  <body>
+    <h1 style="text-align: center; font-weight: bold;">TẠO LAYOUT</h1>
+    <p style="text-align: left; margin-left: 10px;">Dùng CSS + DIV tạo layout sau:</p>
+    <div class="container">
+      <div class="header">HEADER</div>
+      <div class="main_1">Main_1</div>
+      <div class="main_2">Main_2</div>
+      <div class="main_3">Main_3</div>
+      <div class="footer">FOOTER</div>
+    </div>
+  </body>
+</html>
